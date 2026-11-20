@@ -1,0 +1,21 @@
+/* One supplied wordmark in every signature; the custom loop is decorative only. */
+.wordmark {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  align-self: flex-start;
+  width: min(var(--wordmark-width, 184px), 100%);
+  min-height: 44px;
+  color: var(--color-ink);
+  line-height: 1;
+}
+
+.wordmark-reference { background: transparent; }
+.wordmark-reference-image { display: block; width: 100%; height: auto; }
+.brand-loop { display: block; aspect-ratio: 2 / 1; fill: none; pointer-events: none; }
+.about-wordmark { --wordmark-width: 180px; }
+.footer .wordmark { --wordmark-width: 174px; align-self: center; }
+
+@media (min-width: 768px) and (max-width: 959px) {
+  .sidebar .wordmark { --wordmark-width: 154px; }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "looptech-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5180 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5181 --strictPort",
+    "check": "node --check src/main.js && node --check src/contact.js && node --check src/navigation.js && node --check src/projects.js && node --check vite.config.js"
+  },
+  "devDependencies": {
+    "axe-core": "^4.14.1",
+    "vite": "^7.3.0"
+  }
+}

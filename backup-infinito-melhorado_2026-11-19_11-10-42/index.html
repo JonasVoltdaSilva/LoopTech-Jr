@@ -97,16 +97,20 @@
             <div class="orbit orbit-one"></div>
             <div class="orbit orbit-two"></div>
             <div class="infinity-stage">
-              <div class="infinity-back"></div>
-              <svg class="hero-infinity brand-loop" viewBox="0 0 128 64" preserveAspectRatio="xMidYMid meet" focusable="false" aria-hidden="true" style="overflow: visible;">
+              <svg class="hero-infinity brand-loop" viewBox="0 0 128 64" preserveAspectRatio="xMidYMid meet" focusable="false" aria-hidden="true">
                 <defs>
                   <linearGradient id="infinity-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
                     <stop offset="0%" stop-color="#9b7cff" />
                     <stop offset="50%" stop-color="#6545ff" />
                     <stop offset="100%" stop-color="#4317cd" />
                   </linearGradient>
+                  <filter id="infinity-glow" x="-50%" y="-50%" width="200%" height="200%">
+                    <feGaussianBlur stdDeviation="6" result="blur" />
+                    <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                  </filter>
                 </defs>
-                <path class="infinity-trail" d="M60 30C45 15 40 8 27 8a22 22 0 0 0 0 44c13 0 18-7 33-22S80 8 93 8a22 22 0 0 1 0 44c-13 0-18-7-33-22Z" transform="translate(4 2)" fill="none" stroke="url(#infinity-gradient)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+                <use href="#brand-loop" stroke="url(#looptech-ribbon)" stroke-width="13" fill="none" opacity="0.35" />
+                <path class="infinity-trail" d="M60 30C45 15 40 8 27 8a22 22 0 0 0 0 44c13 0 18-7 33-22S80 8 93 8a22 22 0 0 1 0 44c-13 0-18-7-33-22Z" transform="translate(4 2)" fill="none" stroke="url(#infinity-gradient)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" filter="url(#infinity-glow)" />
               </svg>
             </div>
           </div>
