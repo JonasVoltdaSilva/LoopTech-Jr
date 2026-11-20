@@ -1,0 +1,10 @@
+node_modules/
+dist/
+backup-*/
+backups/
+*.log
+.DS_Store
+Thumbs.db
+.vite/
+.venv/
+.env

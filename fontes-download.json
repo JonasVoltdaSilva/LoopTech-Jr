@@ -1,0 +1,94 @@
+{
+  "downloaded_at": "2026-11-17T20:01:15.167257+00:00",
+  "sources": [
+    {
+      "repository": "coleam00/excalidraw-diagram-skill",
+      "source_path": ".",
+      "destination": "skills-do-artigo/excalidraw",
+      "files": 9,
+      "snapshot": "coleam00-excalidraw-diagram-skill-8646fcc",
+      "zip_sha256": "1e28852528ec5be1e723a803fe4a95161b249a330aecfaaf89086c9a3c033888"
+    },
+    {
+      "repository": "mattpocock/skills",
+      "source_path": "skills/productivity/grill-me",
+      "destination": "skills-do-artigo/grill-me",
+      "files": 2,
+      "snapshot": "mattpocock-skills-5863806",
+      "zip_sha256": "782ac6050df58e49d2e0111fe530b4cb9be8b6be0964b938a4c24dd53acccfbf"
+    },
+    {
+      "repository": "mattpocock/skills",
+      "source_path": "skills/productivity/handoff",
+      "destination": "skills-do-artigo/handoff",
+      "files": 2,
+      "snapshot": "mattpocock-skills-5863806",
+      "zip_sha256": "782ac6050df58e49d2e0111fe530b4cb9be8b6be0964b938a4c24dd53acccfbf"
+    },
+    {
+      "repository": "zarazhangrui/frontend-slides",
+      "source_path": ".",
+      "destination": "skills-do-artigo/frontend-slides",
+      "files": 163,
+      "snapshot": "zarazhangrui-frontend-slides-9906a34",
+      "zip_sha256": "8a4a286d7d7b6a7b16106d3e547c616e14821f6de07ff28d88c311e2513c091d"
+    },
+    {
+      "repository": "remotion-dev/skills",
+      "source_path": "skills",
+      "destination": "skills-do-artigo/remotion",
+      "files": 259,
+      "snapshot": "remotion-dev-skills-3e20ac7",
+      "zip_sha256": "f98b7f62b3e86a7a9b8eae20b975d296d32269a690e610ac8551268583d3ff1f"
+    },
+    {
+      "repository": "anthropics/skills",
+      "source_path": "skills/frontend-design",
+      "destination": "skills-do-artigo/frontend-design",
+      "files": 2,
+      "snapshot": "anthropics-skills-e4bb5d9",
+      "zip_sha256": "694fef34c4b618ad3995937bb2c30b846a0f7a930d606db1ac5dd4e5486d5d4a"
+    },
+    {
+      "repository": "anthropics/skills",
+      "source_path": "skills/webapp-testing",
+      "destination": "skills-do-artigo/webapp-testing",
+      "files": 6,
+      "snapshot": "anthropics-skills-e4bb5d9",
+      "zip_sha256": "694fef34c4b618ad3995937bb2c30b846a0f7a930d606db1ac5dd4e5486d5d4a"
+    },
+    {
+      "repository": "anthropics/skills",
+      "source_path": "skills/mcp-builder",
+      "destination": "skills-do-artigo/mcp-builder",
+      "files": 11,
+      "snapshot": "anthropics-skills-e4bb5d9",
+      "zip_sha256": "694fef34c4b618ad3995937bb2c30b846a0f7a930d606db1ac5dd4e5486d5d4a"
+    },
+    {
+      "repository": "composio-community/awesome-codex-skills",
+      "source_path": ".",
+      "destination": "awesome-codex-skills",
+      "files": 1101,
+      "snapshot": "composio-community-awesome-codex-skills-0930e13",
+      "zip_sha256": "237b3e1c76ca7aa7249a5bae04c7447f8f91ab93cfa1f5e576ee587f91a5093e"
+    },
+    {
+      "repository": "pbakaus/impeccable",
+      "source_path": ".agents/skills/impeccable",
+      "destination": "skills-do-artigo/impeccable",
+      "files": 69,
+      "snapshot": "pbakaus-impeccable-d41d986",
+      "zip_sha256": "5648acc295ef8eca0f42ca05c5d1da7234464280ccedd454a390c439e63b1cc0"
+    },
+    {
+      "repository": "ComposioHQ/composio",
+      "source_path": "skills/composio",
+      "destination": "skills-do-artigo/composio",
+      "files": 4,
+      "snapshot": "ComposioHQ-composio-2aa8ef6",
+      "zip_sha256": "0ef3a1b1a360dee8d061260b16bbba5650eb915b73f5a503037445e5516efa3b"
+    }
+  ],
+  "errors": []
+}

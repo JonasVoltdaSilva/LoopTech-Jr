@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-18T21:34:47.730Z",
+  "title": "Design System: Loop Tech Jr.",
+  "extensions": {
+    "refinement": {
+      "documentation": "REFINEMENT.md",
+      "currentComponentSources": ["index.html", "src/brand.css", "src/navigation.css", "src/navigation.js", "src/styles.css"],
+      "componentExamplesStatus": "The component snippets below are preserved historical baseline examples, not current recipes for the refined wordmark, icons or navigation. Current source files and the scoped updates in DESIGN.md/REFINEMENT.md take precedence.",
+      "brandSymbol": "brand-loop",
+      "wordmarkSymbol": "looptech-wordmark",
+      "icons": "Lucide 1.75.0; 24x24; stroke 2; public/licenses/lucide.txt",
+      "review": "Main-agent manual review; independent final reviewer was blocked by subagent quota. No engine/CLI executed."
+    },
+    "colorMeta": {
+      "primary": { "role": "primary", "displayName": "Roxo principal", "tonalRamp": ["oklch(15% 0.0643 281.7)", "oklch(26% 0.1286 281.7)", "oklch(38% 0.1929 281.7)", "oklch(49% 0.2572 281.7)", "oklch(61% 0.2174 281.7)", "oklch(72% 0.1494 281.7)", "oklch(84% 0.0813 281.7)", "oklch(95% 0.0243 281.7)"] },
+      "primary-hover": { "role": "primary", "displayName": "Roxo de interação", "tonalRamp": ["oklch(15% 0.0611 280.5)", "oklch(26% 0.1222 280.5)", "oklch(38% 0.1833 280.5)", "oklch(49% 0.2445 280.5)", "oklch(61% 0.2162 280.5)", "oklch(72% 0.1486 280.5)", "oklch(84% 0.0809 280.5)", "oklch(95% 0.0242 280.5)"] },
+      "ink": { "role": "neutral", "displayName": "Tinta violeta escura", "tonalRamp": ["oklch(15% 0.0101 290.9)", "oklch(26% 0.0202 290.9)", "oklch(38% 0.0303 290.9)", "oklch(49% 0.0404 290.9)", "oklch(61% 0.0404 290.9)", "oklch(72% 0.0343 290.9)", "oklch(84% 0.0202 290.9)", "oklch(95% 0.0073 290.9)"] },
+      "background": { "role": "neutral", "displayName": "Lavanda de fundo", "tonalRamp": ["oklch(15% 0.0040 293.8)", "oklch(26% 0.0080 293.8)", "oklch(38% 0.0120 293.8)", "oklch(49% 0.0161 293.8)", "oklch(61% 0.0161 293.8)", "oklch(72% 0.0137 293.8)", "oklch(84% 0.0080 293.8)", "oklch(95% 0.0029 293.8)"] },
+      "surface": { "role": "neutral", "displayName": "Branco de painel", "tonalRamp": ["oklch(15% 0.0000 0.0)", "oklch(26% 0.0000 0.0)", "oklch(38% 0.0000 0.0)", "oklch(49% 0.0000 0.0)", "oklch(61% 0.0000 0.0)", "oklch(72% 0.0000 0.0)", "oklch(84% 0.0000 0.0)", "oklch(95% 0.0000 0.0)"] },
+      "muted": { "role": "neutral", "displayName": "Texto de apoio", "tonalRamp": ["oklch(15% 0.0105 298.9)", "oklch(26% 0.0210 298.9)", "oklch(38% 0.0315 298.9)", "oklch(49% 0.0420 298.9)", "oklch(61% 0.0420 298.9)", "oklch(72% 0.0357 298.9)", "oklch(84% 0.0210 298.9)", "oklch(95% 0.0076 298.9)"] },
+      "line": { "role": "neutral", "displayName": "Divisória lavanda", "tonalRamp": ["oklch(15% 0.0070 299.5)", "oklch(26% 0.0139 299.5)", "oklch(38% 0.0209 299.5)", "oklch(49% 0.0278 299.5)", "oklch(61% 0.0278 299.5)", "oklch(72% 0.0237 299.5)", "oklch(84% 0.0139 299.5)", "oklch(95% 0.0050 299.5)"] },
+      "dark-surface": { "role": "neutral", "displayName": "Superfície violeta escura", "tonalRamp": ["oklch(15% 0.0110 299.2)", "oklch(26% 0.0219 299.2)", "oklch(38% 0.0329 299.2)", "oklch(49% 0.0439 299.2)", "oklch(61% 0.0439 299.2)", "oklch(72% 0.0373 299.2)", "oklch(84% 0.0219 299.2)", "oklch(95% 0.0079 299.2)"] },
+      "on-dark": { "role": "neutral", "displayName": "Texto claro sobre escuro", "tonalRamp": ["oklch(15% 0.0040 293.8)", "oklch(26% 0.0080 293.8)", "oklch(38% 0.0120 293.8)", "oklch(49% 0.0161 293.8)", "oklch(61% 0.0161 293.8)", "oklch(72% 0.0137 293.8)", "oklch(84% 0.0080 293.8)", "oklch(95% 0.0029 293.8)"] },
+      "muted-on-dark": { "role": "neutral", "displayName": "Apoio sobre escuro", "tonalRamp": ["oklch(15% 0.0115 301.0)", "oklch(26% 0.0231 301.0)", "oklch(38% 0.0346 301.0)", "oklch(49% 0.0461 301.0)", "oklch(61% 0.0461 301.0)", "oklch(72% 0.0392 301.0)", "oklch(84% 0.0231 301.0)", "oklch(95% 0.0083 301.0)"] },
+      "error": { "role": "neutral", "displayName": "Erro de validação (funcional, não acento de marca)", "tonalRamp": ["oklch(15% 0.0408 11.8)", "oklch(26% 0.0816 11.8)", "oklch(38% 0.1224 11.8)", "oklch(49% 0.1632 11.8)", "oklch(61% 0.1632 11.8)", "oklch(72% 0.1387 11.8)", "oklch(84% 0.0816 11.8)", "oklch(95% 0.0253 11.8)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Título principal", "purpose": "Hero; escala fluida e ajustes responsivos descritos em DESIGN.md." },
+      "headline": { "displayName": "Título de seção", "purpose": "Seções institucionais; sobre e contato têm ajustes próprios." },
+      "title": { "displayName": "Título de serviço", "purpose": "Hierarquia dos itens abertos de serviços." },
+      "body": { "displayName": "Corpo base", "purpose": "Base tipográfica da página, não uma regra para toda legenda ou parágrafo." },
+      "body-copy": { "displayName": "Parágrafo de apoio", "purpose": "Texto do hero e da seção sobre; serviços usam entrelinha própria." },
+      "label": { "displayName": "Rótulo de ação", "purpose": "Botões primários compactos." },
+      "wordmark": { "displayName": "Marca tipográfica", "purpose": "Base do wordmark autoral com infinito; tamanho e variante clara dependem do contexto." }
+    },
+    "shadows": [
+      { "name": "shadow-preview", "value": "0 18px 30px -14px rgb(26 9 65 / 35%)", "purpose": "Única sombra do CSS, aplicada às miniaturas ilustrativas de navegador HTML." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Curva das transições de estado." },
+      { "name": "transition", "value": "180ms var(--ease-out)", "purpose": "Preenchimento, cor, borda e pequenos deslocamentos dos controles; sem animação contínua." },
+      { "name": "reduced-motion", "value": "@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }", "purpose": "Preferência do sistema elimina animações, transições e rolagem suave." }
+    ],
+    "breakpoints": [
+      { "name": "desktop-amplo", "value": "(min-width: 1600px)" },
+      { "name": "desktop-compacto", "value": "(max-width: 1199px)" },
+      { "name": "tablet", "value": "(min-width: 768px) and (max-width: 959px)" },
+      { "name": "mobile", "value": "(max-width: 767px)" },
+      { "name": "mobile-amplo", "value": "(min-width: 520px) and (max-width: 767px)" },
+      { "name": "mobile-estreito", "value": "(max-width: 374px)" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botão primário",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ação principal com hover, foco, pressionamento e desabilitado; o exemplo não executa o fluxo de briefing.",
+      "html": "<button class=\"ds-button\" type=\"button\">Gerar resumo do projeto<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\" /></svg></button>",
+      "css": ".ds-button { display: inline-flex; justify-content: center; align-items: center; gap: 18px; min-height: 48px; padding: 14px 23px; border: 0; border-radius: var(--radius-control, 999px); background: var(--color-primary, #6545ff); color: var(--color-surface, #ffffff); font-family: var(--font-family, Sora, 'Segoe UI', sans-serif); font-size: 12px; font-weight: 500; line-height: 1.4; cursor: pointer; transition: background var(--transition, 180ms cubic-bezier(0.16, 1, 0.3, 1)), transform var(--transition, 180ms cubic-bezier(0.16, 1, 0.3, 1)); } .ds-button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; } .ds-button:hover { background: var(--color-primary-hover, #5130e0); } .ds-button:active { transform: translateY(1px); } .ds-button:disabled { opacity: 0.6; cursor: not-allowed; transform: none; } .ds-button:focus-visible { outline: 3px solid var(--color-primary, #6545ff); outline-offset: 5px; } @media (max-width: 767px) { .ds-button { padding: 14px 22px; } } @media (prefers-reduced-motion: reduce) { .ds-button { transition: none !important; } }"
+    },
+    {
+      "name": "Link textual",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "Ação secundária sem cápsula; este exemplo usa a base do link, não o ajuste menor do hero no desktop.",
+      "html": "<a class=\"ds-text-link\" href=\"#sobre\">Entre no nosso loop<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6 18 18 6M6 6h12v12\" /></svg></a>",
+      "css": ".ds-text-link { display: inline-flex; justify-content: flex-start; align-items: center; gap: 12px; min-height: 44px; padding: 0; border: 0; background: transparent; color: var(--color-ink, #0b071a); font-family: var(--font-family, Sora, 'Segoe UI', sans-serif); font-size: 11px; font-weight: 500; line-height: 1.65; text-align: left; text-decoration: none; text-underline-offset: 5px; } .ds-text-link svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; } .ds-text-link:hover { color: var(--color-primary, #6545ff); } .ds-text-link:focus-visible { outline: 3px solid var(--color-primary, #6545ff); outline-offset: 5px; }"
+    },
+    {
+      "name": "Campo com erro associado",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Campo de e-mail no estado inválido; CSS inclui base, placeholder, hover, foco e mensagem. Não há variante própria de campo desabilitado.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-email\">Seu e-mail <span aria-hidden=\"true\">*</span></label><input id=\"ds-email\" name=\"email\" type=\"email\" autocomplete=\"email\" required maxlength=\"200\" placeholder=\"voce@exemplo.com\" value=\"contato\" aria-invalid=\"true\" aria-describedby=\"ds-email-error\" /><span class=\"ds-field-error\" id=\"ds-email-error\">Digite um e-mail válido, como voce@exemplo.com.</span></div>",
+      "css": ".ds-field { min-width: 0; margin-bottom: 21px; font-family: var(--font-family, Sora, 'Segoe UI', sans-serif); } .ds-field label { display: block; margin-bottom: 9px; color: #2d203e; font-size: 12px; font-weight: 500; } .ds-field label > span { color: var(--color-primary, #6545ff); } .ds-field input { display: block; width: 100%; min-width: 0; min-height: 46px; padding: 12px 13px; border: 1px solid #c8bfd7; border-radius: 6px; background: var(--color-surface, #ffffff); color: var(--color-ink, #0b071a); caret-color: var(--color-primary, #6545ff); font-family: var(--font-family, Sora, 'Segoe UI', sans-serif); font-size: 13px; line-height: 1.7; transition: border-color var(--transition, 180ms cubic-bezier(0.16, 1, 0.3, 1)); } .ds-field input::placeholder { color: #756c84; opacity: 1; } .ds-field input:hover { border-color: #9281b5; } .ds-field input:focus-visible { outline: 2px solid var(--color-primary, #6545ff); outline-offset: 2px; border-color: var(--color-primary, #6545ff); } .ds-field [aria-invalid='true'] { border-color: var(--color-error, #a22243); } .ds-field-error { display: block; margin-top: 6px; color: var(--color-error, #a22243); font-size: 10px; line-height: 1.65; } .ds-field-error:empty { display: none; } @media (max-width: 767px) { .ds-field { margin-bottom: 20px; } .ds-field input { min-height: 48px; font-size: 16px; } .ds-field input::placeholder { font-size: 12px; } } @media (prefers-reduced-motion: reduce) { .ds-field input { transition: none !important; } }"
+    },
+    {
+      "name": "Navegação do trilho",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Estados normal e atual sobre contexto escuro. O menu expansível e seu controle de foco pertencem à aplicação, não a este snippet estático.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Exemplo de navegação principal\"><a class=\"ds-nav-link\" href=\"#inicio\" aria-current=\"location\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-8H9v8H4a1 1 0 0 1-1-1Z\" /></svg>Início<span class=\"ds-nav-dot\" aria-hidden=\"true\"></span></a><a class=\"ds-nav-link\" href=\"#servicos\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m7 6-6 6 6 6m10-12 6 6-6 6M14 3l-4 18\" /></svg>Serviços</a></nav>",
+      "css": ".ds-nav { display: grid; gap: 9px; background: var(--color-ink, #0b071a); font-family: var(--font-family, Sora, 'Segoe UI', sans-serif); } .ds-nav-link { position: relative; display: flex; align-items: center; gap: 15px; min-height: 49px; padding: 12px 17px; border-radius: 12px; color: #d0c6e0; font-size: 13px; line-height: 1.65; text-decoration: none; transition: background var(--transition, 180ms cubic-bezier(0.16, 1, 0.3, 1)), color var(--transition, 180ms cubic-bezier(0.16, 1, 0.3, 1)); } .ds-nav-link svg { flex: 0 0 auto; width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; } .ds-nav-link:hover { background: #241837; color: var(--color-surface, #ffffff); } .ds-nav-link[aria-current='location'] { background: var(--color-primary, #6545ff); color: var(--color-surface, #ffffff); } .ds-nav-dot { width: 4px; height: 4px; margin-left: auto; border-radius: 50%; background: var(--color-surface, #ffffff); } .ds-nav-link:focus-visible { outline: 3px solid #c0aaff; outline-offset: 5px; } @media (min-width: 768px) and (max-width: 959px) { .ds-nav-link { padding-inline: 13px; gap: 11px; font-size: 11px; } } @media (max-width: 767px) { .ds-nav { gap: 7px; padding-top: 8px; } .ds-nav-link { font-size: 14px; } } @media (prefers-reduced-motion: reduce) { .ds-nav-link { transition: none !important; } }"
+    },
+    {
+      "name": "Filtros de conceitos",
+      "kind": "chip",
+      "refersTo": "filter",
+      "description": "Estados selecionado e normal; aria-pressed representa o estado. O snippet não simula a filtragem implementada em src/projects.js.",
+      "html": "<div class=\"ds-filters\" role=\"group\" aria-label=\"Filtrar conceitos por tipo\"><button class=\"ds-filter\" type=\"button\" aria-pressed=\"true\">Todos</button><button class=\"ds-filter\" type=\"button\" aria-pressed=\"false\">Sites</button><button class=\"ds-filter\" type=\"button\" aria-pressed=\"false\">Sistemas</button></div>",
+      "css": ".ds-filters { display: flex; gap: 6px; background: var(--color-dark-surface, #191127); } .ds-filter { min-height: 44px; padding: 10px 21px; border: 1px solid #564764; border-radius: var(--radius-control, 999px); background: transparent; color: #d2c5e4; font-family: var(--font-family, Sora, 'Segoe UI', sans-serif); font-size: 11px; font-weight: 500; cursor: pointer; transition: background var(--transition, 180ms cubic-bezier(0.16, 1, 0.3, 1)), color var(--transition, 180ms cubic-bezier(0.16, 1, 0.3, 1)); } .ds-filter:hover { background: #332440; color: var(--color-surface, #ffffff); } .ds-filter[aria-pressed='true'] { border-color: var(--color-background, #f5f3ff); background: var(--color-background, #f5f3ff); color: var(--color-ink, #0b071a); } .ds-filter:focus-visible { outline: 3px solid #c9b0ff; outline-offset: 5px; } @media (max-width: 767px) { .ds-filter { padding-inline: 17px; font-size: 12px; } } @media (prefers-reduced-motion: reduce) { .ds-filter { transition: none !important; } }"
+    },
+    {
+      "name": "Painel de briefing concluído",
+      "kind": "card",
+      "refersTo": "brief-panel",
+      "description": "Contêiner branco sem sombra no estado de resultado local; não representa confirmação de envio à equipe.",
+      "html": "<div class=\"ds-panel\"><div class=\"ds-result\"><span class=\"ds-result-check\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\"><path d=\"m5 12 4 4L19 6\" /></svg></span><h3>Seu próximo passo está no papel.</h3><p>O resumo está pronto para baixar. <strong>Nada foi enviado à Loop.</strong> Compartilhe pelo canal oficial da equipe quando ele estiver disponível.</p></div></div>",
+      "css": ".ds-panel { min-width: 0; padding: 30px; border-radius: var(--radius-panel, 16px); background: var(--color-surface, #ffffff); color: var(--color-ink, #0b071a); font-family: var(--font-family, Sora, 'Segoe UI', sans-serif); } .ds-result { padding-top: 10px; } .ds-result-check { display: grid; place-items: center; width: 46px; height: 46px; margin-bottom: 22px; border-radius: 50%; background: #eee8ff; color: var(--color-primary, #6545ff); } .ds-result-check svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; } .ds-result h3 { margin-top: 0; margin-bottom: 15px; font-size: 24px; font-weight: 600; line-height: 1.35; letter-spacing: -0.025em; text-wrap: balance; } .ds-result p { margin-top: 0; color: var(--color-muted, #655d77); font-size: 12px; line-height: 1.85; text-wrap: pretty; } .ds-result strong { color: var(--color-ink, #0b071a); font-weight: 500; } @media (max-width: 1199px) { .ds-panel { padding: 24px; } } @media (max-width: 767px) { .ds-panel { padding: 23px 20px; } .ds-result h3 { font-size: 23px; } } @media (min-width: 520px) and (max-width: 767px) { .ds-panel { padding: 30px; } } @media (max-width: 374px) { .ds-panel { padding-inline: 18px; } }"
+    },
+    {
+      "name": "Detalhes de conceito",
+      "kind": "custom",
+      "refersTo": "project-details",
+      "description": "Disclosure nativo com hover, foco e rotação da seta no estado aberto; o texto identifica a ilustração como fictícia.",
+      "html": "<details class=\"ds-details\"><summary>Explorar conceito<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6 18 18 6M6 6h12v12\" /></svg></summary><div class=\"ds-detail-content\"><p>Uma presença digital editorial para um estúdio fictício: hierarquia clara, projetos em destaque e navegação simples. Este preview ilustra uma direção de interface, sem representar um site de cliente.</p></div></details>",
+      "css": ".ds-details { margin-top: 18px; border-top: 1px solid #453450; background: var(--color-dark-surface, #191127); color: var(--color-on-dark, #f5f3ff); font-family: var(--font-family, Sora, 'Segoe UI', sans-serif); line-height: 1.65; } .ds-details > summary { display: flex; justify-content: space-between; align-items: center; gap: 12px; min-height: 50px; list-style: none; font-size: 11px; cursor: pointer; } .ds-details > summary::-webkit-details-marker { display: none; } .ds-details > summary svg { flex: 0 0 auto; width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; color: #c7abfa; transition: transform var(--transition, 180ms cubic-bezier(0.16, 1, 0.3, 1)); } .ds-details[open] > summary svg { transform: rotate(90deg); } .ds-details > summary:hover { color: #c7abfa; } .ds-details > summary:focus-visible { outline: 3px solid #c9b0ff; outline-offset: 5px; } .ds-detail-content { padding: 6px 0 10px; } .ds-detail-content > p { margin-top: 0; color: var(--color-muted-on-dark, #c2b7d7); font-size: 12px; line-height: 1.9; text-wrap: pretty; } @media (max-width: 767px) { .ds-details { margin-top: 15px; } .ds-details > summary { font-size: 12px; } } @media (prefers-reduced-motion: reduce) { .ds-details > summary svg { transition: none !important; } }"
+    },
+    {
+      "name": "Wordmark com infinito autoral",
+      "kind": "custom",
+      "refersTo": "wordmark",
+      "description": "Base tipográfica com geometria SVG copiada de index.html; aproximação da referência, não logotipo oficial aprovado. A variante clara do trilho usa tons próprios no CSS.",
+      "html": "<a class=\"ds-wordmark\" href=\"#inicio\"><span class=\"ds-sr-only\">Loop Tech Jr. — início</span><span aria-hidden=\"true\">L</span><svg class=\"ds-wordmark-loop\" viewBox=\"0 0 120 60\" aria-hidden=\"true\"><path d=\"M60 30C45 15 40 8 27 8a22 22 0 0 0 0 44c13 0 18-7 33-22S80 8 93 8a22 22 0 0 1 0 44c-13 0-18-7-33-22Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"13\" /></svg><span aria-hidden=\"true\">p<span class=\"ds-wordmark-tech\">Tech</span><span class=\"ds-wordmark-jr\"> Jr.</span></span></a>",
+      "css": ".ds-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; } .ds-wordmark { display: inline-flex; align-items: center; flex: 0 0 auto; align-self: flex-start; color: var(--color-ink, #0b071a); font-family: var(--font-family, Sora, 'Segoe UI', sans-serif); font-size: 25px; font-weight: 750; letter-spacing: -0.04em; line-height: 1.3; white-space: nowrap; text-decoration: none; } .ds-wordmark-loop { display: inline-block; vertical-align: middle; width: 39px; height: 25px; margin-inline: -1px; color: var(--color-primary, #6545ff); overflow: visible; } .ds-wordmark-tech { color: var(--color-primary, #6545ff); } .ds-wordmark-jr { font-weight: 650; } .ds-wordmark:focus-visible { outline: 3px solid var(--color-primary, #6545ff); outline-offset: 5px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Conexão que vira tecnologia",
+    "overview": "Trilho escuro, superfícies lavanda claras, roxo saturado e infinito conectam uma interface de densidade moderada. Serviços usam listas abertas; painéis são reservados às ilustrações e ao briefing.\n\nDecisões de implementação derivadas das pranchas fornecidas, não diretrizes oficiais nem aprovação da marca. A construção é orientada pelo código, sobre uma identidade existente, sem comp preciso da página inteira. Extração manual de `src/styles.css`, conferida com `index.html`, módulos de interação e `ASSETS.md`; CLI/engine Impeccable não executado para evitar instalação automática de binário.",
+    "keyCharacteristics": [
+      "Contraste entre navegação escura e conteúdo claro.",
+      "Sora local, hierarquia fluida e controles compactos.",
+      "Infinito autoral em SVG; miniaturas ilustrativas em HTML/CSS."
+    ],
+    "rules": [
+      { "name": "The Acento Principal Rule", "body": "Preservar o roxo como acento principal; variações tonais não constituem novas cores institucionais.", "section": "colors" },
+      { "name": "The Camadas Tonais Rule", "body": "Separar superfícies por preenchimento e linha; reservar a sombra de preview às miniaturas ilustrativas.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do preservar a Sora local com sua licença e o infinito integrado ao nome.",
+      "Do manter as larguras responsivas do trilho, contraste e foco visível dos controles.",
+      "Do identificar previews como demonstrativos e o resumo de briefing como arquivo local, sem envio."
+    ],
+    "donts": [
+      "Don't apresentar estes tokens ou o wordmark autoral como diretrizes oficiais aprovadas.",
+      "Don't misturar a variante orbital com estrela ao sistema do infinito integrado.",
+      "Don't usar pranchas/capturas como assets de produção nem conceitos fictícios como entregas de clientes."
+    ]
+  }
+}
